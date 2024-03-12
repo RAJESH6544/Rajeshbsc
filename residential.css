@@ -1,0 +1,79 @@
+@media screen and (max-width:1410px)
+ {
+    body{
+        background-color:rgb(192, 220, 247);
+    }
+ }    
+@media screen and (max-width:500px)
+{
+    body{
+        background-color:pink;
+    }
+}
+nav a:hover{
+    
+    background-color: aqua;
+
+}
+.kitchen-code h2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.card1:hover{
+    transform:translate(50px);
+    transition: 3s;
+    transition-timing-function: scale-in;
+    transform: scale(1.1);
+}
+.card2:hover{
+    transform:translate(50px);
+    transition: 3s;
+    transition-timing-function: scale-in;
+    transform: scale(1.1);
+}
+.card3:hover{
+    transform:translate(50px);
+    transition: 3s;
+    transition-timing-function: scale-in;
+    transform: scale(1.1);
+}
+.content-para{
+    background-image: url('contentpara.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-section {
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 20px;
+  }
+  .contact-section i:hover{
+     color: deeppink;
+  }
+  .contact-info {
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  .social-icons {
+    padding-top: 10px;
+  }
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .footer-links {
+    padding-top: 20px;
+  }
+  .footer-links a {
+    color: #343a40;
+    text-decoration: none;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  .social-icons i:hover{
+    color:deeppink;
+  }

@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+@media screen and (max-width:1410px)
+ {
+    body{
+        background-color:rgb(192, 220, 247);
+    }
+ }    
+@media screen and (max-width:500px)
+{
+    body{
+        background-color:pink;
+    }
+}
+nav a:hover{
+    
+    background-color: aqua;
+
+}
+
+
+.link-img{
+    background-image: url('ownimg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    overflow: hidden;
+
+}
+.link-img h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.link-para:hover{
+    overflow: hidden;
+    margin-left:-5px;
+    transform:translate(50px);
+    transition: 3s;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+
+}
+.content-img{
+    background-image: url('ownimgback1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: -13px;
+    
+}
+.content-image2{
+    background-image: url('ownimgback2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.link-con1 {
+    overflow: hidden;
+    
+}
+.img-add:hover{
+    transform:translate(50px);
+    transition: 3s;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+}
+.content-img:hover{
+    transform:translate(50px);
+    transition: 3s;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+}
+.content-image2:hover{
+    transform:translate(50px);
+    transition: 3s;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+}
+.img-ad:hover{
+    transform:translate(50px);
+    transition: 3s;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+}
+.img-ad{
+    position:relative;
+    width: 600px;
+}
+.contact-section {
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 20px;
+  }
+  .contact-section i:hover{
+     color: deeppink;
+  }
+  .contact-info {
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  .social-icons {
+    padding-top: 10px;
+  }
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .footer-links {
+    padding-top: 20px;
+  }
+  .footer-links a {
+    color: #343a40;
+    text-decoration: none;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  .social-icons i:hover{
+    color:deeppink;
+  }

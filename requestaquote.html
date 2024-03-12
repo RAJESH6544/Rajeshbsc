@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+ <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RP CONSTRUCTIONS</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"rel="stylesheet">
+         <link rel="icon"type="image/x-icon" href="logo.png">
+        <link rel="stylesheet"href="quote.css">
+    
+     <nav class="navbar navbar-expand-lg bg-secondary navbar-primary ">
+        
+        <div class="container-fluid nav-bar ">
+            <a href="#"class="nav-brand" ><img src="logo.png" alt="pic" height="100" width="100" class=rounded-circle></a>
+            <button type="button"class="navbar-toggler bg-danger" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse " id="nav">
+                    <ul class="navbar-nav justify-content-between w-100 text-info">
+                        <li class="nav-item"><h2 class="text-danger"><b>RP CONSTRUCTIONS</b></h2></li>
+                        <li class="nav-item"><a href="home.html" class="nav-link text-light">Home</a></li>
+                        <li class="nav-item"><a href="residential.html" class="nav-link text-light">Residential</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-light">products</a></li>
+                        
+                        <div class="dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">Our Process </a></li>
+                        <ul class="dropdown-menu">
+                        <li class="dropdown-item" ><a href="oursolution.html" class="text-decoration-none ">Our solutions</a></li>
+                        <hr class="dropdown-divider">
+                        <li class="dropdown-item"><a href="forowners.html" class="text-decoration-none">For owners</a></li>
+                        <hr class="dropdown-divider">
+                        <li class="dropdown-item"><a href="analysis.html"class="text-decoration-none">Analysis & Design</a></li>
+                        </ul>
+                        </div>
+                        <div class="dropdown ">
+                            <a href="#" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">Contact Us </a></li>
+                            <ul class="dropdown-menu">
+                            <li class="dropdown-item" ><a href="requestaquote.html" class="text-decoration-none">Request a Quote</a></li>
+                            <hr class="dropdown-divider">
+                            </ul>
+                            </div>
+                            <li class="nav-item"><a href="requestaquote.html"><button type="button"class="btn btn-info">Request a Quote</button></a></li>
+                            <li class="nav-item"><a href="index.html"><button type="button"class="btn btn-info">Logout</button></a></li>
+                            
+                    
+                       
+                    </ul>
+                </div> 
+
+         </div>
+     </nav>
+ </head>
+ <body>
+    <div class="container-fluid img-content">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+                <h2 class="text-light"><b>Request a Quote</b></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-2 p-1 ms-3">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 content-para bg-secondary">
+                <h2 class="text-dark"><i>Quote Request Form</i></h2>
+              <p class="text-light"><i>Please fill out the form to submit a quote request.<br>
+                 The more information you provide the better <br>
+                 our team is able to assist you.</i></p> 
+                 <br>
+                 <br>
+                 <br>
+                <h3 class="text-dark"><i>RP CONSTRUCTION SERVICES</i></h3> 
+                <br>
+                <p class="text-light"><i>305 Dela Vina Avenue<br>
+                    Monterey, CA 93940</i></p>
+                <br>
+                <p><i class="fa-solid fa-phone"></i>+91 8489822161</p>
+                <br>
+                <i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-2 bg-success content-form">
+                <h2>Construction Work Request Form</h2>
+                <hr>
+                <form action="/submit-form" method="post" class="needs-validation" novalidate>
+                  <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Enter full name" name="fullName" required>
+                    <div class="invalid-feedback">Please enter your full name.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                    <div class="invalid-feedback">Please enter a valid email.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" name="phone" required>
+                    <div class="invalid-feedback">Please enter a valid phone number.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="constructionType">Type of Construction:</label>
+                    <select class="form-control" id="constructionType" name="constructionType" required>
+                      <option value="">Select construction type</option>
+                      <option value="residential">Residential</option>
+                      <option value="commercial">Commercial</option>
+                      <option value="industrial">Industrial</option>
+                    </select>
+                    <div class="invalid-feedback">Please select the type of construction.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="details">Details:</label>
+                    <textarea class="form-control" id="details" placeholder="Enter construction details" name="details" required></textarea>
+                    <div class="invalid-feedback">Please enter the construction details.</div>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit Request</button>
+                </form>
+              </div>
+              
+              <!-- Bootstrap JS and Popper.js -->
+              <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.7.12/dist/umd/popper.min.js"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+              
+              <!-- Form Validation Script -->
+              <script>
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+              (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  var forms = document.getElementsByClassName('needs-validation');
+                  // Loop over them and prevent submission
+                  var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+                      form.classList.add('was-validated');
+                    }, false);
+                  });
+                }, false);
+              })();
+              </script>
+            </div>
+        </div>
+    </div>
+    
+ </body>
+ <footer>
+    <div class="container-fluid contact-section">
+        <div class="row">
+          <div class=" col-lg-6 col-md-6 col-12 bg-info text-light">
+            <h4>Contact info</h4>
+            <p><i class="fa-solid fa-phone"></i> Phone: 74932737923</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: Rpconstruction334@gmail.com</p>
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <h5>Location</h5>
+            <p>Rpconstructions.pvt Ltd<br>1505 Roja street, Hyderabad</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 bg-info text-light">
+            <!-- Add your logo here -->
+            <div class="logo-placeholder mt-2"><img src="logo.png"alt="logo" height="50"width="50"class="rounded-circle"></div>
+            <div class="footer-links text-light">
+              <a href="#">More links</a><br>
+              <a href="#">History</a><br>
+              <a href="#">About</a>
+            </div>
+          </div>
+          <hr>
+            <p class="text-warning">Copyright&#169,RP CONSTRUCTIONS 2024</p>
+        </div>
+      </div>
+     
+ </footer>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alert Button Example</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  .alert-message {
+    display: none;
+  }
+</style>
+</head>
+<body>
+<div class="container mt-5">
+  <h2>Click the Button for an Alert Message</h2>
+  <button type="button" class="btn btn-primary" onclick="showAlert()">Show Alert</button>
+  <div class="alert alert-warning alert-dismissible fade show alert-message" role="alert">
+    <strong>Congrats!</strong> Message sent successfully!
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="hideAlert()">
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.7.12/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+function showAlert() {
+  $('.alert-message').show();
+}
+
+function hideAlert() {
+  $('.alert-message').hide();
+}
+</script>
+</body>
+</html>

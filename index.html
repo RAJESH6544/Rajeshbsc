@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        body{
+           background-image: url('solreq.jpg');
+           background-size: cover;
+           background-repeat: no-repeat;
+        }
+
+        .sri{
+            margin-top: 160px;
+            margin-left: 460px;
+            border-radius: 50px;
+            background-color: aqua;
+            width: 350px;
+            height: 250px;
+            padding: 5px;
+        }
+        .container-fluid{
+           
+        
+        }
+        #sri1{
+            border: 2px double none;
+            background-color: red;
+            border: radius 10px; ;
+
+        }
+    </style>
+</head>
+<body>    
+    <div class="sri">
+    <div class="container-fluid mt-5  ">
+        <div class="row ">
+            <div class="col-lg-4 col-2"></div>
+
+            <div class="col-lg-4 col-4  text-light bg-success">
+                <center><h2 class="mt-3">Login</h2></center>
+                <div id="sri1 bg-success">
+                <center>
+                <label for="uname" class="mt-5" >User Name :</label>
+                <input type="text" name="uname" id="input"
+                placeholder="Enter User Name" required class="ms-2 rounded"><br><br>
+
+                <label for="pass">Password  :</label>
+                <input type="password" name="password" id="input1"
+                 placeholder="Enter password" required class="ms-3 rounded"><br><br>
+
+                    
+                <button type="button" id="result" onclick="result()" class="bg-success p-3">Sign in</button><br><br>
+
+                <a href="##" class="text-decoration-none text-light">forget password?</a>
+                <a href="register.html" class="text-decoration-none text-light">New Registration</a></center>
+
+            </div></div>
+
+       </div> </div></div>
+
+       <script>
+        let uname=document.getElementById("input")
+        let pass=document.getElementById("input1")
+
+        function result(){
+            let unamevalue =uname.value;
+            let passvalue=pass.value;
+
+            if(unamevalue==="Rajesh" && passvalue==="Rajesh3005"){
+                console.log("hello");
+                
+                window.location.href ="home.html"
+            }
+            else{
+                console.log('better luck next time');
+                alert("invalid user")
+            }
+        }
+        
+       </script>
+    
+</body>
+</html>

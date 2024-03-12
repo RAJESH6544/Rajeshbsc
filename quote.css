@@ -1,0 +1,64 @@
+@media screen and (max-width:1410px)
+ {
+    body{
+        background-color:rgb(192, 220, 247);
+    }
+ }    
+@media screen and (max-width:500px)
+{
+    body{
+        background-color:pink;
+    }
+}
+
+nav a:hover{
+    
+    background-color: aqua;
+
+}
+.img-content{
+    background-image: url('solimg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width:100%;
+}
+.img-content h2{
+    margin-top: 150px;
+    margin-left: 100px;
+
+}
+.contact-section {
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 20px;
+  }
+  .contact-section i:hover{
+     color: deeppink;
+  }
+  .contact-info {
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  .social-icons {
+    padding-top: 10px;
+  }
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .footer-links {
+    padding-top: 20px;
+  }
+  .footer-links a {
+    color: #343a40;
+    text-decoration: none;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: aqua;
+  }
+  .social-icons i:hover{
+    color:deeppink;
+  }
